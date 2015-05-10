@@ -1,1 +1,7 @@
 <p>This is the partial for view 1.</p>
+<form  ng-submit="submitUser()" >
+Name : <input type="text" ng-model="user.name" />
+Age : <input type="text" ng-model="user.age" />
+<input type="submit" />
+</form>
+<p>{{user}}
